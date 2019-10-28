@@ -11,8 +11,13 @@
     "url": "https://github.com/patrick-test222/test-npm-package.git"
   },
   "publishConfig": {
-      "registry": "https://npm.pkg.github.com/"
+    "registry": "https://npm.pkg.github.com/"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@gmsllc/minfraud-api-node": "^1.2.6",
+    "@patmooney/bouncing-ball": "0.0.6",
+    "minimist": "^1.2.0"
+  }
 }
